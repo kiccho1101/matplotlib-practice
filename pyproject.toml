@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "matplotlib-practice"
+version = "0.1.0"
+description = ""
+authors = ["kiccho1101"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+matplotlib = "^3.4.2"
+pandas = "^1.2.4"
+numpy = "^1.20.3"
+ipython = "^7.23.1"
+jupyter = "^1.0.0"
+
+[tool.poetry.dev-dependencies]
+black = "^21.5b1"
+flake8 = "^3.9.2"
+isort = "^5.8.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
